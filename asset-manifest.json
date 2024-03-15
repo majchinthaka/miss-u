@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/miss-u/static/css/main.dc57274b.css",
+    "main.js": "/miss-u/static/js/main.5496fa9a.js",
+    "static/js/453.f1fc1d96.chunk.js": "/miss-u/static/js/453.f1fc1d96.chunk.js",
+    "index.html": "/miss-u/index.html",
+    "main.dc57274b.css.map": "/miss-u/static/css/main.dc57274b.css.map",
+    "main.5496fa9a.js.map": "/miss-u/static/js/main.5496fa9a.js.map",
+    "453.f1fc1d96.chunk.js.map": "/miss-u/static/js/453.f1fc1d96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc57274b.css",
+    "static/js/main.5496fa9a.js"
+  ]
+}
