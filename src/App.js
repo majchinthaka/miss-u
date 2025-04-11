@@ -13,22 +13,27 @@ function App() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Anee...",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a Ice cream on top",
-      "What about a Pizza",
-      "PLEASE..",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "please..",
-      ":((((",
-      "PLEASE..",
-      "Anee..",
-      "No.... :(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
+      ":(",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,18 +43,17 @@ function App() {
       <div className="-mt-16 flex h-screen flex-col items-center justify-center">
         {yesPressed ? (
             <>
-              {/*<img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />*/}
-              🖤💛
+              💛🌕
               <br/>
-              <div className="my-4 text-4xl font-bold">WOOOOOO!!! I Miss U! ;))</div>
+              <div className="my-4 text-4xl font-bold">Always! 😔</div>
             </>
         ) : (
             <>
               <img
                   className="h-[200px]"
-                  src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+                  src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDBzM2pvMDc5NnB2dHJrNXJyampsZTRibTExdnQ0cTVobTZta3dmOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d62ID9ANzAZKvBLh4A/giphy.gif"
               />
-              <h1 className="my-4 text-4xl">Will you be my Best Friend?</h1>
+              <h1 className="my-4 text-4xl">😔</h1>
               <div className="flex items-center">
                 <button
                     className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
@@ -57,13 +61,13 @@ function App() {
                     style={{ fontSize: yesButtonSize }}
                     onClick={() => setYesPressed(true)}
                 >
-                  Yes
+                  😔
                 </button>
                 <button
                     onClick={handleNoClick}
                     className=" rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700"
                 >
-                  {noCount === 0 ? "No" : getNoButtonText()}
+                  {noCount === 0 ? "😔" : getNoButtonText()}
                 </button>
               </div>
             </>
